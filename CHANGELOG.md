@@ -7,6 +7,7 @@ All notable changes to this project are documented here. Versions follow
 ## [1.0.0] — 2026-04-18
 
 ### Added
+
 - Initial public release as a derivative work of
   [`oh-my-claudecode/critic`](https://github.com/Yeachan-Heo/oh-my-claudecode)
   by Yeachan Heo.
@@ -43,6 +44,7 @@ All notable changes to this project are documented here. Versions follow
 - `NOTICE` file documenting the MIT heritage and derived elements.
 
 ### Attribution
+
 - Role framing, four-phase skeleton, multi-perspective matrix, gap
   analysis, output format, and failure-modes list are retained from the
   upstream `critic.md` by Yeachan Heo (MIT, 2025). See `NOTICE`.

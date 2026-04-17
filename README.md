@@ -97,7 +97,7 @@ Claude Code auto-discovers agents in these directories on the next start.
 
 ### From a conversation
 
-```
+```text
 @harsh-critic please audit PLAN.md before I execute it
 ```
 
@@ -125,7 +125,7 @@ Agent(
 
 ## Example output
 
-```
+```text
 VERDICT: REVISE
 
 Overall Assessment: Core approach is sound; two claims rest on insufficient

@@ -6,7 +6,7 @@ table, a README demo command, and a headline "2× speedup" claim.
 
 ---
 
-```
+```text
 VERDICT: REVISE
 
 Overall Assessment
