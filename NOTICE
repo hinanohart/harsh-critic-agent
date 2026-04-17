@@ -1,0 +1,31 @@
+harsh-critic-agent
+Copyright (c) 2026 Hinano Hart
+
+This product includes prompt engineering derived from the `critic.md` agent in
+Yeachan Heo's "oh-my-claudecode" project, licensed under the MIT License.
+
+  Upstream: https://github.com/Yeachan-Heo/oh-my-claudecode
+  Copyright (c) 2025 Yeachan Heo
+
+Derived elements retained from upstream:
+  - Role framing ("final quality gate, not helpful assistant")
+  - Four-phase investigation protocol skeleton
+  - Multi-perspective review matrix
+  - Gap-analysis prompt
+  - Output format skeleton
+  - Failure-modes-to-avoid list
+
+Substantial additions by Hinano Hart (MIT, 2026):
+  - Phase 6: Statistical Sanity Pass (S1-S7, derived from yuragi v0.3.0
+    bootstrap-CI invalidation of the n=3 "all positive" illusion).
+  - Phase 7: Post-Publication Adversarial Pass (P1-P6, derived from
+    mosaicraft v0.3.2 post-release 8-agent parallel audit).
+  - Phase 8: Anti-Pattern Detection (A1-A8, including frame-hopping,
+    sunk-cost protection, narrative-fit bias).
+  - Case Study Anchors (CS-1 through CS-6) drawn from real published
+    research-code failures and their corrections.
+  - Japanese translation of the agent prompt.
+  - Repository scaffolding (docs, tests, CI).
+
+The original agent and the extensions are both distributed under the MIT
+License. See LICENSE for full terms.
