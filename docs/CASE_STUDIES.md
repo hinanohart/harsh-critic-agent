@@ -21,9 +21,9 @@ coin flip at p=0.5, the probability of three positives in a row is
 0.5³ = 0.125. You get three positives by chance in roughly one in eight
 studies. That is indistinguishable from noise, not "strong signal."
 
-**Evidence in the wild.** Author's own yuragi project (v0.3.0) initially
-reported three positive prompts as "strong evidence for the Sach-stability
-hypothesis." Bootstrap confidence interval over the same three trials
+**Evidence in the wild.** A personal research project initially reported
+three positive prompts as "strong evidence" for a stability-class
+hypothesis. Bootstrap confidence interval over the same three trials
 included zero. Claim retracted and relabelled "preliminary."
 
 **Fix.**
@@ -78,7 +78,7 @@ hand-typed or hard-coded, rather than regenerated from a raw-data file.
 discrepancy in minutes. The credibility hit is not proportional to the
 size of the error; any mismatch costs trust.
 
-**Evidence in the wild.** A mosaic project's README claimed "38.4%
+**Evidence in the wild.** A side-project's README claimed "38.4%
 diversity" as its differentiating metric. The underlying `metrics.json`
 read 42.4%. A reviewer diff'd the two and filed an issue. The whole
 README had to be audited line-by-line.

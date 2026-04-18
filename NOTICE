@@ -16,10 +16,11 @@ Derived elements retained from upstream:
   - Failure-modes-to-avoid list
 
 Substantial additions by Hinano Hart (MIT, 2026):
-  - Phase 6: Statistical Sanity Pass (S1-S7, derived from yuragi v0.3.0
-    bootstrap-CI invalidation of the n=3 "all positive" illusion).
-  - Phase 7: Post-Publication Adversarial Pass (P1-P6, derived from
-    mosaicraft v0.3.2 post-release 8-agent parallel audit).
+  - Phase 6: Statistical Sanity Pass (S1-S7, derived from a personal
+    research line's bootstrap-CI invalidation of an n=3 "all positive"
+    illusion).
+  - Phase 7: Post-Publication Adversarial Pass (P1-P6, derived from a
+    side-project's post-release 8-agent parallel audit).
   - Phase 8: Anti-Pattern Detection (A1-A8, including frame-hopping,
     sunk-cost protection, narrative-fit bias).
   - Case Study Anchors (CS-1 through CS-6) drawn from real published

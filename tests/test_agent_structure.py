@@ -58,6 +58,11 @@ def test_english_agent_frontmatter_required_fields() -> None:
     assert fm.get("name") == "harsh-critic"
     assert fm.get("model") == "opus"
     assert fm.get("license") == "MIT"
+    # NOTE: ``disallowedTools`` is a frontmatter *hint*, not a runtime
+    # sandbox — Claude Code's subagent spec uses a ``tools:`` allowlist.
+    # This test asserts the YAML string is present (so the hint continues
+    # to be shipped) but does NOT claim Write/Edit are enforced at the
+    # harness level. SECURITY.md explains the gap explicitly.
     assert "Write" in fm.get("disallowedTools", "")
     assert "Edit" in fm.get("disallowedTools", "")
 

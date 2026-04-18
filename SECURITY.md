@@ -18,6 +18,31 @@ realistic security concerns are:
 All actions in `.github/workflows/` are pinned to full commit SHAs to
 mitigate (3). Dependabot keeps them current.
 
+## Honest framing of the Write/Edit restriction
+
+The agent frontmatter declares `disallowedTools: Write, Edit`. Claude
+Code's documented subagent frontmatter supports a `tools:` allowlist, not
+a `disallowedTools:` denylist. In practice the prevailing Claude Code
+releases are tolerant of the key, but **the Write/Edit block is
+prompt-enforced, not harness-enforced** — the LLM chooses to comply with
+the instruction in `<Constraints>`.
+
+That means:
+
+- A sufficiently aggressive prompt-injection payload in the reviewed
+  material could, in principle, cause the model to call Write or Edit
+  against the wishes of the agent prompt. The constraint in
+  `<Constraints>` telling the model to treat reviewed content as DATA,
+  not instructions, is our strongest defence; the frontmatter key is a
+  hint, not a lock.
+- The "Bash for verification only" guidance is likewise behavioural.
+  Defence in depth: install `claude-safety-guard` alongside this agent
+  so Bash calls that actually do destructive work are blocked at the
+  hook layer.
+
+This framing is deliberate. Treat the agent as *well-behaved by
+convention*, not *sandboxed by construction*.
+
 ## Reporting a vulnerability
 
 If you believe you have found a security issue — for example, a prompt

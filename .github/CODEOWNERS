@@ -1,0 +1,10 @@
+# Any change to this repo requires review from @hinanohart.
+# Keeping the prompt canonical matters — the agent is copied into user
+# shells and an unnoticed prompt change ships to every consumer on the
+# next pull. CODEOWNERS lets "Require review from Code Owners" branch
+# protection have something to enforce.
+
+* @hinanohart
+
+/.github/ @hinanohart
+/agents/ @hinanohart

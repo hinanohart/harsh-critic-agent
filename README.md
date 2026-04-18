@@ -207,6 +207,12 @@ anchors from real failures (with public post-mortems) are especially welcome.
 See [`SECURITY.md`](./SECURITY.md). The agent is a Markdown prompt file; it
 has no network access and no code execution surface of its own.
 
+Note that the `disallowedTools: Write, Edit` line in the frontmatter is
+**prompt-enforced, not harness-enforced** — the LLM chooses to comply.
+For destructive-command protection at the harness level, install
+[`claude-safety-guard`](https://pypi.org/project/claude-safety-guard/) as
+a PreToolUse hook alongside this agent.
+
 ## License
 
 MIT — see [`LICENSE`](./LICENSE) and [`NOTICE`](./NOTICE).
