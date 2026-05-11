@@ -176,7 +176,7 @@ def test_statistical_doc_covers_all_subchecks() -> None:
 def test_license_attributes_upstream_author() -> None:
     license_text = read(ROOT / "LICENSE")
     assert "Yeachan Heo" in license_text
-    assert "Hinano Hart" in license_text
+    assert "harsh-critic-agent contributors" in license_text
     assert "MIT" in license_text
 
 

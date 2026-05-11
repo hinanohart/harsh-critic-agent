@@ -1,5 +1,5 @@
 harsh-critic-agent
-Copyright (c) 2026 Hinano Hart
+Copyright (c) 2026 harsh-critic-agent contributors
 
 This product includes prompt engineering derived from the `critic.md` agent in
 Yeachan Heo's "oh-my-claudecode" project, licensed under the MIT License.
@@ -15,7 +15,7 @@ Derived elements retained from upstream:
   - Output format skeleton
   - Failure-modes-to-avoid list
 
-Substantial additions by Hinano Hart (MIT, 2026):
+Substantial additions by the harsh-critic-agent contributors (Apache-2.0, 2026):
   - Phase 6: Statistical Sanity Pass (S1-S7, derived from a personal
     research line's bootstrap-CI invalidation of an n=3 "all positive"
     illusion).
