@@ -4,7 +4,7 @@
 > approvals with statistical sanity checks, a post-publication adversarial
 > pass, and anti-pattern detection.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 [![Claude Code Agent](https://img.shields.io/badge/Claude%20Code-subagent-8A2BE2.svg)](https://docs.claude.com/en/docs/claude-code/sub-agents)
 [![Attribution: Yeachan Heo](https://img.shields.io/badge/attribution-Yeachan%20Heo-informational)](./NOTICE)
 
