@@ -4,6 +4,11 @@ All notable changes to this project are documented here. Versions follow
 [Semantic Versioning](https://semver.org/). Entries follow
 [Keep a Changelog](https://keepachangelog.com/).
 
+## [v1.0.1] - 2026-05-19
+
+### Changed
+- Re-tagged from MIT-licensed HEAD. Previous tag `v1.0.0` (2026-04..05) was cut while the repository carried an Apache-2.0 license; the project has since relicensed to MIT. No code changes from `v1.0.0` other than the LICENSE file update. This patch release exists so that `pip install` / version-pinned consumers receive the same MIT-licensed source that the current `main` provides.
+
 ## [1.0.0] — 2026-04-18
 
 ### Added
