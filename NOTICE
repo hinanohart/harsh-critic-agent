@@ -15,7 +15,7 @@ Derived elements retained from upstream:
   - Output format skeleton
   - Failure-modes-to-avoid list
 
-Substantial additions by the harsh-critic-agent contributors (Apache-2.0, 2026):
+Substantial additions by the harsh-critic-agent contributors (MIT, 2026):
   - Phase 6: Statistical Sanity Pass (S1-S7, derived from a personal
     research line's bootstrap-CI invalidation of an n=3 "all positive"
     illusion).
@@ -29,14 +29,15 @@ Substantial additions by the harsh-critic-agent contributors (Apache-2.0, 2026):
   - Repository scaffolding (docs, tests, CI).
 
 The retained upstream elements were originally distributed under the MIT
-License (Copyright (c) 2025 Yeachan Heo). harsh-critic-agent as a whole is now
-distributed under the Apache License, Version 2.0. The upstream MIT license
-text is preserved here for attribution; nothing in the relicensing removes
-the rights granted by the original MIT license to anyone who received those
+License (Copyright (c) 2025 Yeachan Heo). harsh-critic-agent as a whole is
+distributed under the MIT License. The upstream MIT license text is preserved
+here for attribution; nothing in this repository's licensing removes the
+rights granted by the original MIT license to anyone who received those
 elements.
 
-See LICENSE for the Apache-2.0 terms applicable to harsh-critic-agent as a
-whole. The upstream MIT License text follows for reference:
+See LICENSE for the MIT terms applicable to harsh-critic-agent as a whole.
+The upstream MIT License text (Copyright (c) 2025 Yeachan Heo) follows for
+reference:
 
   MIT License
 
