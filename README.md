@@ -47,7 +47,7 @@ Yeachan Heo's *oh-my-claudecode*. The upstream agent is already very good at:
 This fork adds the missing half — **what hits you after publication**:
 
 | Pass | Upstream `critic.md` | `harsh-critic-agent` |
-|------|----------------------|----------------------|
+| ---- | -------------------- | -------------------- |
 | Role framing | ✅ | ✅ (retained) |
 | Pre-commitment | ✅ | ✅ (retained) |
 | Multi-perspective | ✅ | ✅ extended: reviewer / 48-hour-hindsight / downstream user |
