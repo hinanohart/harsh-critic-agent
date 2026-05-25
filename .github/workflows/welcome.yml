@@ -24,22 +24,22 @@ jobs:
       # actions/first-interaction@v1.3.0 — pinned by SHA per security best practice
       - uses: actions/first-interaction@fb2402657b4a28582200150d0a145671d0e50597
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          issue_message: |
-            👋 Thanks for opening your first issue here!
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Thanks for opening your first issue here!
 
             A maintainer will look at it soon. Meanwhile:
             - For **general questions**, please use the Discussions tab instead.
-            - For **security reports**, please use private advisories (Security tab → Report a vulnerability).
+            - For **security reports**, please use private advisories (Security tab -> Report a vulnerability).
             - Contributing guide: https://github.com/hinanohart/.github/blob/main/CONTRIBUTING.md
-          pr_message: |
-            🎉 Thanks for your first pull request!
+          pr-message: |
+            Thanks for your first pull request!
 
             A few things that help reviews go faster:
             - PR title follows [Conventional Commits](https://www.conventionalcommits.org/) (e.g. `fix: ...`, `feat: ...`)
             - Tests pass locally (`make test` or repo equivalent)
-            - One logical change per PR — split unrelated changes into separate PRs
+            - One logical change per PR -- split unrelated changes into separate PRs
 
             Contributing guide: https://github.com/hinanohart/.github/blob/main/CONTRIBUTING.md
 
-            A maintainer will review shortly. Welcome aboard! 🚀
+            A maintainer will review shortly. Welcome aboard!

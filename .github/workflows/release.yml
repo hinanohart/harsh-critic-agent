@@ -64,21 +64,13 @@ jobs:
             echo "Release $TAG already exists; skipping."
             exit 0
           fi
-          INSTALL_NOTE="Install (pin to this version):
-
-\`\`\`bash
-mkdir -p ~/.claude/agents
-curl -fsSL https://raw.githubusercontent.com/${REPO}/${TAG}/agents/harsh-critic.md \\
-  -o ~/.claude/agents/harsh-critic.md
-\`\`\`
-
-"
+          INSTALL_NOTE=$(printf 'Install (pin to this version):\n\n```bash\nmkdir -p ~/.claude/agents\ncurl -fsSL https://raw.githubusercontent.com/%s/%s/agents/harsh-critic.md \\\n  -o ~/.claude/agents/harsh-critic.md\n```\n\n' "$REPO" "$TAG")
           gh release create "$TAG" \
             --repo "$REPO" \
             --title "$TAG" \
             --verify-tag \
             --generate-notes
           EXISTING=$(gh release view "$TAG" --repo "$REPO" --json body -q .body)
-          gh release edit "$TAG" --repo "$REPO" --notes "${INSTALL_NOTE}---
-
-${EXISTING}"
+          NOTES="${INSTALL_NOTE}---
+          ${EXISTING}"
+          gh release edit "$TAG" --repo "$REPO" --notes "$NOTES"
